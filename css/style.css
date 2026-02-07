@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Chango";
-  src: url(/Fonte/Chango-Regular.ttf);
+  src: url("/Fonte/Chango.woff2") format(woff2);
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(/Fonte/Montserrat-normal.ttf);
+  src: url("/Fonte/Montserrat.woff2") format(woff2);
 }
 
 body {
@@ -29,8 +29,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 100px;
-    width: 100%;
-
+  width: 100%;
 }
 h2 {
   color: #002423;
@@ -72,6 +71,7 @@ figcaption {
 .topmenu {
   background-color: #002423;
   padding: 15px;
+  width: 100%;
 }
 .topmenu ul {
   list-style: none;
