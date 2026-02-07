@@ -29,6 +29,8 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 100px;
+    width: 100%;
+
 }
 h2 {
   color: #002423;
